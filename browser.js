@@ -31,7 +31,7 @@ const CONFIG = {
   accounts: accountsConfig.accounts || [], // Account data from JSON
 
   comments: [
-    "Love this content! 🔥",
+    "SCAM DON'T TRUST ‼️",
     "Amazing stream! ❤️",
     "Keep up the great work! 👏",
     "You're awesome! 🌟",
@@ -43,16 +43,16 @@ const CONFIG = {
     "This is exactly what I needed today! 💕",
   ],
   commentInterval: {
-    min: 55000, // Minimum time between comments (55 seconds)
-    max: 120000, // Maximum time between comments (2 minutes)
+    min: 1000, // Minimum time between comments (1 seconds)
+    max: 5000, // Maximum time between comments (5 seconds)
   },
   likeInterval: {
     min: 25000, // Minimum time between likes (25 seconds)
     max: 60000, // Maximum time between likes (1 minute)
   },
   viewDelay: {
-    min: 2000, // Minimum delay before interacting after joining (2 seconds)
-    max: 15000, // Maximum delay before interacting after joining (15 seconds)
+    min: 1000, // Minimum delay before interacting after joining (1 seconds)
+    max: 5000, // Maximum delay before interacting after joining (5 seconds)
   },
 };
 
